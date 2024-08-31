@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header img{
+    width: 5vw;
+    margin: 1em;
+}
+
+.banner img{
+    border-radius: 2em;
+    width: 100%;
+
+    -webkit-box-shadow: 10px 10px 7px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 7px -5px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 7px -5px rgba(0,0,0,0.75);
+}
+
+.banner{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icones{
+    display: flex;
+    justify-content: space-between;
+    background-color: #787878;
+}
+
